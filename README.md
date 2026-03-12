@@ -30,8 +30,8 @@ The system is built with a Microservices-first approach, splitting business logi
 
 ## 🛠 Setup & Installation
 **Bash**
-  - # Clone the repository
+  -  **Clone the repository**
       + git clone https://github.com/heaven-vo/microservices-patient-billing
 
--  # Build and start the entire ecosystem
+  -  **Build and start the entire ecosystem**
       + docker-compose up --build
