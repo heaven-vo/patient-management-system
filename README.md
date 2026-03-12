@@ -6,14 +6,10 @@ This project is a backend ecosystem designed to manage patient records, billing,
 
 ## 🏗 System Architecture**
 The system is built with a Microservices-first approach, splitting business logic into specialized domains:
-
-**Patient Service:** Manages core patient demographics and medical history using Spring Boot.
-
-**Billing/Internal Service:** Handles financial records and invoice generation.
-
-**Inter-service Communication:** Utilizes gRPC and Protocol Buffers for high-performance, synchronous internal calls instead of traditional REST, significantly reducing overhead.
-
-**Database:** Each service maintains its own PostgreSQL instance to ensure loose coupling (Database-per-service pattern).
+  - **Patient Service:** Manages core patient demographics and medical history using Spring Boot.
+  - **Billing/Internal Service:** Handles financial records and invoice generation.
+  - **Inter-service Communication:** Utilizes gRPC and Protocol Buffers for high-performance, synchronous internal calls instead of traditional REST, significantly reducing overhead.
+  - **Database:** Each service maintains its own PostgreSQL instance to ensure loose coupling (Database-per-service pattern).
 
 ## 🚀 Engineering Highlights
 **1. High-Performance Communication (gRPC)**
